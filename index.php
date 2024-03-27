@@ -8,7 +8,7 @@ use Controllers\PrayerTime;
 $ctr = new PrayerTime(); 
 
 
-
+ 
 
 if( !isset($_GET['act']) ){
   $ctr->index();
