@@ -24,31 +24,28 @@ if(count($data)==0){
     echo '</br>';
     echo 'Default '.$zone;    
     echo '</br>';
-<?php   
+<?php    
+// if(count($data)==0){
+//     echo "<form method='post' action='run'>"
+//     ."<input name='box_name' placeholder='box name' type='text' />"
+//     ."&nbsp;&nbsp;"
+//     ."<input name='zone' placeholder='zone' type='text'/>"
+//     ."&nbsp;&nbsp;"
+//     ."<select name='subs'>";
+//     foreach ($data2 as $row) {
+//         echo "<option value='" . $row['subs_id'] . "' >" . $row['subs_name'] . "</option>";
+//     }
+//     echo "</select>"
+//     ."&nbsp;&nbsp;"
+//     ."<input name='run' type='submit' />"
+//     ."</form>"
+//     ;
+// }else{ 
+
+//     echo "<pre>";
+//     print_r($data);
+//     echo "</pre>";
 // }
-?>
-
-if(count($data)==0){
-    echo "<form method='post' action='run'>"
-    ."<input name='box_name' placeholder='box name' type='text' />"
-    ."&nbsp;&nbsp;"
-    ."<input name='zone' placeholder='zone' type='text'/>"
-    ."&nbsp;&nbsp;"
-    ."<select name='subs'>";
-    foreach ($data2 as $row) {
-        echo "<option value='" . $row['subs_id'] . "' >" . $row['subs_name'] . "</option>";
-    }
-    echo "</select>"
-    ."&nbsp;&nbsp;"
-    ."<input name='run' type='submit' />"
-    ."</form>"
-    ;
-}else{ 
-
-    echo "<pre>";
-    print_r($data);
-    echo "</pre>";
-
     ?>    -->
 
 
